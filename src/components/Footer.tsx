@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
         {/* Brand */}
         <div className="footer-brand">
            <img
-            src="/public/ecosa-logo.jpeg"
-            alt="ECOSA Logo"
-            className="footer-logo"
-          />
+  src="/ecosa-logo.jpeg"
+  alt="ECOSA Logo"
+  className="footer-logo"
+/>
           
           <div>
             <h3>ECOSA</h3>
