@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -38,35 +39,35 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Quick Links */}
+        {/* Explore */}
         <div className="footer-links">
-          <h4>Quick Links</h4>
+          <h4>Explore</h4>
 
-          <a href="/">Home</a>
-          <a href="/about">About ECOSA</a>
-          <a href="/projects">Projects</a>
-          <a href="/resources">Resources</a>
-          <a href="/contact">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About ECOSA</Link>
+          <Link to="/leaders">Leadership</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/resources">Resources</Link>
         </div>
 
         {/* Membership */}
         <div className="footer-links">
           <h4>Membership</h4>
 
-          <a href="/register">Register</a>
-          <a href="/members">Members</a>
-          <a href="/chapters">Chapters</a>
-          <a href="/payments">Membership Payments</a>
+          <Link to="/register">Register</Link>
+          <Link to="/members">Members Directory</Link>
+          <Link to="/chapters">Chapters</Link>
+          <Link to="/payments">Membership Payments</Link>
         </div>
 
-        {/* Support */}
+        {/* Community */}
         <div className="footer-links">
-          <h4>Support</h4>
+          <h4>Community</h4>
 
-          <a href="/community">Community</a>
-          <a href="/jobs">Job Board</a>
-          <a href="/projects">Projects</a>
-          <a href="/resources">Resources</a>
+          <Link to="/community">Community</Link>
+          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/jobs">Job Board</Link>
+          <Link to="/contact">Contact Us</Link>
         </div>
 
         {/* Contact */}
@@ -75,10 +76,11 @@ const Footer: React.FC = () => {
 
           <p>📞 +256 700 123 456</p>
           <p>✉️ info@ecosa.org</p>
+
           <p>
-            📍 Ibanda District,
+            📍 Equatorial College Ibanda
             <br />
-            Uganda
+            Ibanda District, Uganda
           </p>
         </div>
       </div>
