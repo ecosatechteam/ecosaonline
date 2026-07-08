@@ -66,7 +66,6 @@ const Footer: React.FC = () => {
 
           <Link to="/community">Community</Link>
           <Link to="/dashboard">Dashboard</Link>
-          <Link to="/jobs">Job Board</Link>
           <Link to="/contact">Contact Us</Link>
         </div>
 
