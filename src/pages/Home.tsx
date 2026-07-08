@@ -60,6 +60,10 @@ const Home: React.FC = () => {
           <Link className="btn" to="/members">
             Members Search
           </Link>
+
+          <Link className="btn" to="/projects">
+    Projects
+  </Link>
         </div>
       </div>
 
