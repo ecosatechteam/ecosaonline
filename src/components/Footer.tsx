@@ -7,27 +7,11 @@ const Footer: React.FC = () => {
       <div className="footer-container">
         {/* Brand */}
         <div className="footer-brand">
-          <img
-              src={`${logoBase}.png`}
-              alt="ECOSA Logo"
-              className="footer-logo"
-              onError={(e: any) => {
-                try {
-                  if (!e.target._triedJpg) {
-                    e.target._triedJpg = true;
-                    e.target.src = `${logoBase}.jpg`;
-                  } else if (!e.target._triedJpeg) {
-                    e.target._triedJpeg = true;
-                    e.target.src = `${logoBase}.jpeg`;
-                  } else {
-                    e.target.style.display = "none";
-                  }
-                } catch {
-                  e.target.style.display = "none";
-                }
-              }}
-            />
-
+           <img
+            src="/logo.png"
+            alt="ECOSA Logo"
+            className="footer-logo"
+          />
           <div>
             <h3>ECOSA</h3>
 
