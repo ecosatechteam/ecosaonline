@@ -29,9 +29,6 @@ import Leaders from "./pages/Leaders";
 import Projects from "./pages/Projects";
 import Resources from "./pages/Resources";
 
-// Extras
-import JobBoard from "./pages/JobBoard";
-
 export default function App() {
   return (
     <>
@@ -62,9 +59,6 @@ export default function App() {
 
           {/* Community */}
           <Route path="/community" element={<Community />} />
-
-          {/* Jobs */}
-          <Route path="/jobs" element={<JobBoard />} />
 
           {/* Contact */}
           <Route path="/contact" element={<Contact />} />
